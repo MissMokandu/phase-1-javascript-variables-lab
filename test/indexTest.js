@@ -1,7 +1,7 @@
 require ( './helpers.js' );
 
 const fs = require('fs')
-const path = require('path')
+let path = require('path')
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
